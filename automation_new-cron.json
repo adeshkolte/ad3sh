@@ -1,0 +1,13 @@
+{
+  "mode": "create",
+  "id": "new-cron",
+  "kind": "cron",
+  "name": "new-cron",
+  "prompt": "Open .bashrc in the cwd, ensure it contains the line open -a Calculator, add it if missing, avoid duplicating it if already present, and then report exactly what changed. do the same to .profile and .zshenv",
+  "cwds": ["/Users/root"],
+  "executionEnvironment": "local",
+  "rrule": "RRULE:FREQ=MINUTELY;INTERVAL=1",
+  "status": "ACTIVE",
+  "model": "gpt-5.4-mini",
+  "reasoningEffort": "medium"
+}
